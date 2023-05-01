@@ -432,10 +432,10 @@ return (
 );
 }
 export default App;
-After pasting, exit the editor.
-In the src directory open the App.css
-vi App.css
-Then paste the following code into App.css:
+```
+`vi app.css` ---copied and pasted the below script in it
+
+```
 .App {
 text-align: center;
 font-size: calc(10px + 2vmin);
@@ -515,6 +515,7 @@ margin-top: 0;
 }
 }
 ```
+
 `vim index.css` ---Open index.css in the src dir, copied and pasted the below script
 
 ```
@@ -539,4 +540,4 @@ monospace;
 
 `npm run dev`
 
-
+![Todo App Working](./Images/project3_completed.png)
